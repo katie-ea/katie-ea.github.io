@@ -23,28 +23,29 @@ html { font-size: 13px; }
 
 body { 
 	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size: 11px;
+	font-size: 12px;
 	line-height: 1.8em;
-	color: #919191;
+	color: #626262;
 	background: #fff;
 	padding: 60px 60px 60px 100px;
-	width: 660px;
+	width: 600px;
 }
 
 a {
-	color: #6cd0a9; 
+	color: #6caad0; 
 	text-decoration: none;
 }
 
 a:hover {
-	color: #4a8d75;
+	color: #ae63c7;
 }
 
 #header {
-	margin: 0 0 7em 0;
+	margin: 0 0 2em 0;
 	display: flex;
 	align-items:center;
 	gap: 10px;
+	background-color: #99d8ff;
 }
 #header h1 {
 	position: relative;
@@ -53,18 +54,29 @@ a:hover {
 	font: normal 2em Georgia, "Times New Roman", Times, serif;
 	color: #000;
 }
-#header h1 a:hover {
-	color: #000;
-}
 #header h2 a {
 	font: normal 1.5em Georgia, "Times New Roman", "Times", serif;
 	color: #000;
+}
+#header h2 a:hover {
+	text-decoration: underline;
 }
 #header img {
 	width: 150px;
 	float: left;
 	margin-right: 4px;
 	border-radius: 50%;
+	margin: 10px 4px 10px 10px;
+}
+
+#content {
+	margin: 0 0 1em 3em;
+}
+
+#content p {
+	line-height: 1.5em;
+	font-size: medium;
+	margin-bottom: 1em;
 }
 </style>
 
@@ -78,17 +90,19 @@ a:hover {
 			<div><h1><a href="index.html">Katie Ellman-Aspnes</a></h1>
 						<br>
 						<h2>
-							<a href="cv.html">CV</a>
-							&nbsp;&nbsp;
 							<a href="papers.html">Research</a>
 							&nbsp;&nbsp;
 							<a href="talks.html">Talks</a>
 							&nbsp; &nbsp;
 							<a href="teaching.html">Teaching</a>
+							&nbsp;&nbsp;
+							<a href="outreach.html">Outreach</a>
 						</h2></div>
 		</div>
 		<div id="content">
-			
+			<p>I am a sixth-year Ph.D student at the University of Notre Dame working with <a href="https://www.nramseymath.com/">Nick Ramsey</a>.</p>
+			<p>My research is primarily in model-theoretic questions of approximation and dimension, particularly in regards to NSOP1 theories.</p>
+			<p>Email: kellmana@nd.edu <br><a href="">Download CV</a></p>
 		</div>
 	</body>
 </html>
