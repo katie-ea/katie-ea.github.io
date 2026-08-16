@@ -71,8 +71,16 @@ a:hover {
 	margin: 0 0 1em 3em;
 }
 
+#content h2 {
+    font: normal 1.5em Georgia, "Times New Roman", "Times", serif;
+}
+
 #content p {
 	line-height: 1.5em;
 	font-size: medium;
 	margin-bottom: 1em;
+}
+
+#content ul {
+    margin-left: 2em;
 }
